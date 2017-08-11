@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <EditText
+        android:id="@+id/toDoItemDetailET"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:maxLines="8"
+        android:textColor="#1E90FF" />
+
+
+    <Button
+        android:id="@+id/saveToDoItemBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toDoItemDetailET"
+        android:layout_margin="15dp" 
+        android:text="@string/save"/>
+
+</RelativeLayout>
